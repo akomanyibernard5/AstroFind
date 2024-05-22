@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Outfit;
+}
+
+#root{
+  min-height: 100vh;
+  display: flex;
+  animation: fadeIn 1.5s;
+}
+
+@keyframes fadeIn {
+  0%{
+    opacity: 0;;
+}
+  100%{
+    opacity: 1;
+  }
+  
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #27292c;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 40px;
+}
+
+.text{
+margin-left: 5px; 
+margin-top: 20px;
+}
+
+form{ 
+display: flex;
+flex-direction:column; 
+margin-left: 200px;
+gap: 10px;
+
+}
+
+.fullname,.email,.password1,.password2,.submit{
+width: 450px;
+height: 50px; 
+border-radius: 10px; 
+text-align: center;
+margin-right: 50px;
+margin-top:25px;
+}
+
+.submit{
+width: 208px;
+background-color: black;
+color: white;
+border-color: white; 
+margin-left: 118px;
+margin-top: 20px;
+}
+
+.page{
+width: 740px;
+height: 400px;
+}
+
+.signin-page{
+width: 850px;
+height: 560px; 
+background-color: wheat;
+margin-left: 260px;
+margin-top: 150px;
+color: black;
+border-radius: 20px;
+border-color: black; 
+}
+
+.match{
+font-size: 15px;
+font-style: italic;
+margin-left: 120px;
+width: 200px;
+height: 50px;
+border-radius: 10px;
+border-color: black;
+background-color: red;
+color: black;
+align-content: center;
+margin-top: 20px;
+}
